@@ -43,7 +43,14 @@ nav {
 #topics { 
   margin: 25px auto;
   width: 80%;
-  line-height: 3em;
+  line-height: 2em;
+}
+.lines_left {
+  text-align: left;
+   margin: 25px auto;
+   width: 80%;
+   line-height: 1.2em;
+   background-color:#FFFAF0;
 }
 footer {
   /*bottom of content*/
