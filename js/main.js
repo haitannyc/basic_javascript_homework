@@ -88,6 +88,29 @@ console.log("The comment prints");
 // alert to open panel also can used for debugging
 alert("hello world");
 
+// ----------------additional problem
+// Declare a function that depending upon which virtual 'door' 
+// was entered tells the user they've received a different 'prize' in an alert. 
+// After declaring the function,
+//  try running it with different options.
+
+    function chooseDoor (doornNumber) {
+      if( doornNumber == '1') {
+        console.log("You won a car");
+      } else if ( doornNumber == '2') {
+        console.log("You won a TV"); 
+        } else if ( doornNumber == '3') {
+          console.log("You won a boat"); 
+          } else  {
+            console.log("You won a crap");
+          }
+
+      }
+   
+
+    chooseDoor(1);
+    chooseDoor(3);
+    chooseDoor(9);
 
 // ------------------------------
 
